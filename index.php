@@ -100,23 +100,23 @@
             <div class="carousel-container">
               <h2>Bienvenue sur notre site</h2>
               <p>Découvrez les statistiques des Jeux Olympiques à travers plusieurs visualisations intéressantes.</p>
-              <a href="#about" class="btn-get-started">Read More</a>
+              <a href="#about" class="btn-get-started">Voir plus</a>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <h2>Informations pratiques</h2>
+              <p>Toutes les informations présentes sur ce site proviennent d'une base de donnée Kaggle</p>
+              <a href="#about" class="btn-get-started">Voir plus</a>
             </div>
           </div><!-- End Carousel Item -->
 
           <div class="carousel-item">
             <div class="carousel-container">
               <h2>Autres Infos</h2>
-              <p>Ici on peut ajouter d'autres infos en resumé</p>
-              <a href="#about" class="btn-get-started">Read More</a>
-            </div>
-          </div><!-- End Carousel Item -->
-
-          <div class="carousel-item">
-            <div class="carousel-container">
-              <h2>Encore autres Infos</h2>
-              <p>Ici on peut ajouter d'autres infos en resumé</p>
-              <a href="#about" class="btn-get-started">Read More</a>
+              <p>N'hésitez pas à vous abonnez à notre newsletter  afin d'être informé de nos actualités</p>
+              <a href="#about" class="btn-get-started">Voir plus</a>
             </div>
           </div><!-- End Carousel Item -->
 
@@ -247,7 +247,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Histoire</h2>-
+        <h2>Paris 2024</h2>-
         <p>Les Jeux Olympiques ont été créés en 1896 à Athènes, réinstaurant la tradition des compétitions sportives de l'Antiquité. Aujourd'hui, ils rassemblent des athlètes du monde entier pour promouvoir l'unité et l'excellence à travers le sport. </p>
       </div><!-- End Section Title -->
 
@@ -255,70 +255,69 @@
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/features-1.svg" class="img-fluid" alt="">
+            <img src="https://th.bing.com/th/id/OIP.TOLO2vO8Qh6Wus8j9xoRyAAAAA?rs=1&pid=ImgDetMain" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>La Cérémonie d'Ouverture Inédite sur la Seine</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              La cérémonie d'ouverture des Jeux Olympiques de Paris 2024 se déroulera pour la première fois sur la Seine, transformant ainsi la capitale en un immense décor vivant. Plus de 10 000 athlètes défileront sur des bateaux, passant par des monuments emblématiques de Paris, tels que la Tour Eiffel et le Louvre.
             </p>
             <ul>
-              <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
+              <li><i class="bi bi-check"></i><span> La cérémonie sera gratuite pour une grande partie du public, avec des places payantes sur certains quais.</span></li>
+              <li><i class="bi bi-check"></i> <span>Les spectateurs pourront profiter de 80 écrans géants et d'une sonorisation de qualité pour ne rien manquer du spectacle.</span></li>
+              <li><i class="bi bi-check"></i> <span>Plus de 320 000 spectateurs sont attendus, faisant de cet événement la plus grande cérémonie d'ouverture olympique à ce jour.</span></li>
             </ul>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/features-2.svg" class="img-fluid" alt="">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/ec6732137979487.6214e2a2a11bc.png" class="img-fluid" alt="">
           </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>Corporis temporibus maiores provident</h3>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="200">
+            <h3>Les Nouvelles Disciplines Olympiques</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Les JO de Paris 2024 marqueront l’introduction du breaking, une discipline de danse acrobatique, ainsi que des révisions des formats pour des sports comme le surf et le skateboard. Ces ajouts visent à moderniser les Jeux et attirer un public plus jeune et diversifié.
             </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <ul>
+              <li><i class="bi bi-check"></i><span> Le breaking, discipline urbaine, fera ses débuts sur la scène olympique.</span></li>
+              <li><i class="bi bi-check"></i> <span>Le surf et le skateboard bénéficieront de formats adaptés pour une expérience plus dynamique.</span></li>
+              <li><i class="bi bi-check"></i> <span>Ces sports s'inscrivent dans la volonté des Jeux de s'ouvrir à des pratiques contemporaines.</span></li>
+            </ul>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-3.svg" class="img-fluid" alt="">
+            <img src="https://www.cmpbois.com/photos/20220818-jeux-olympiques-2024-village-athletes.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-md-7" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="300">
+            <h3>Le Village Olympique Durable</h3>
+            <p class="fst-italic">
+              Le village olympique de Paris 2024 se distingue par son design durable. Conçu pour minimiser son empreinte écologique, il sera ensuite transformé en logements permanents après les Jeux, contribuant à la revitalisation de la région.
+            </p>
             <ul>
-              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+              <li><i class="bi bi-check"></i><span> Le village utilise des matériaux recyclés et intègre des solutions énergétiques innovantes.</span></li>
+              <li><i class="bi bi-check"></i> <span>Après les JO, le site sera reconverti en espace résidentiel et communautaire pour répondre aux besoins urbains locaux.</span></li>
+              <li><i class="bi bi-check"></i> <span>Ce projet est un modèle de développement durable pour les événements futurs.</span></li>
             </ul>
           </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/features-4.svg" class="img-fluid" alt="">
+            <img src="https://www.hfrance.fr/wp-content/uploads/2024/07/1720637085_94_Paris_Olympics-1200x648.png" class="img-fluid" alt="">
           </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="400">
+            <h3>Accessibilité et Impact Économique</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Les JO de Paris 2024 seront accessibles au plus grand nombre. L'événement génère déjà un énorme impact économique, avec un afflux de visiteurs internationaux et une stimulation significative du tourisme.
             </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <ul>
+              <li><i class="bi bi-check"></i><span> L'accès gratuit à la cérémonie d'ouverture pour une grande partie du public souligne l'aspect inclusif des Jeux.</span></li>
+              <li><i class="bi bi-check"></i> <span>Les JO devraient stimuler le tourisme et générer des milliards d'euros pour l'économie locale.</span></li>
+              <li><i class="bi bi-check"></i> <span>Cette inclusivité vise à faire des JO un événement mondial accessible à tous.</span></li>
+            </ul>
           </div>
         </div><!-- Features Item -->
 
