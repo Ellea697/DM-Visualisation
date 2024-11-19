@@ -54,8 +54,7 @@
               </li>
               <li class="dropdown"><a href="#"><span>Distribution des Médailles</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="medailles.php">Medailles</a></li>
-                  <li><a href="TotalMedailles.php">Total Medailles</a></li>
+                  <li><a href="medaille.php">Medailles</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Performances</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -193,10 +192,10 @@
               <div class="icon">
                 <i class="bi bi-activity"></i>
               </div>
-              <a href="histogram.php" class="stretched-link">
-                <h3>Statistiques des Coaches et Athlètes</h3>
+              <a href="extreme.php" class="stretched-link">
+                <h3>Les athletes extrêmes</h3>
               </a>
-              <p>Cette page présentera des statistiques détaillées sur les coaches et les athlètes, avec des données sur leur préparation, leurs performances et l'impact des entraîneurs.</p>
+              <p>Dans cette compétition de 26,8 ans de moyenne, des athlètes sortent du lot. Venez découvrir le/la plus grand(e);le/la plus lourd(e)... </p>
             </div>
           </div><!-- End Service Item -->
 
@@ -205,7 +204,7 @@
               <div class="icon">
                 <i class="bi bi-broadcast"></i>
               </div>
-              <a href="medailles.php" class="stretched-link">
+              <a href="medaille.php" class="stretched-link">
                 <h3>Distribution des Médailles</h3>
               </a>
               <p>Cette page se concentrera sur la répartition des médailles lors des Jeux Olympiques, montrant les pays les plus performants, les tendances et les records.</p>
@@ -217,10 +216,10 @@
               <div class="icon">
                 <i class="bi bi-easel"></i>
               </div>
-              <a href="teams.php" class="stretched-link">
-                <h3>Performances des Équipes et des Sports</h3>
+              <a href="repartition_age.php" class="stretched-link">
+                <h3>Répartition hommes/femmes dans chaque discipline</h3>
               </a>
-              <p>Cette page donnera un aperçu des performances des équipes nationales ainsi que des statistiques sur les sports olympiques, y compris les résultats par sport et les classements historiques.</p>
+              <p>Cette page donnera un aperçu des statistiques de la répartition des athletes par genre et par tranche d'âge.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -230,7 +229,7 @@
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
               <a href="torch_route.php" class="stretched-link">
-                <h3>Statistiques des Événements Olympiques</h3>
+                <h3>Disciplines et catégories</h3>
               </a>
               <p>Une page dédiée aux différentes disciplines et événements olympiques, avec des informations sur les épreuves, les résultats et l'évolution des sports dans les JO.</p>
             </div>

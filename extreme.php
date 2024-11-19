@@ -1,59 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+// Inclusion du header
+include 'header.php';
+?>
 
+<!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les extrêmes des JO</title>
-    <script src="https://d3js.org/d3.v6.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <title>Les athletes extrêmes</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/js/flag-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
         }
-
-        h1 {
+        h2 {
+            font-family: 'Georgia', 'Times New Roman', serif; /* Nouvelle police */
+            font-size: 2.5rem; /* Augmenté pour un meilleur impact */
             text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
+            color: #dc3545;
+            font-weight: bold; /* Gras */
+            margin-bottom: 20px;
         }
-
-        .container {
-            padding: 20px;
+        h2 i {
+            color: #ffc107;
         }
-
-        img {
-            max-height: 300px;
-            object-fit: cover;
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
         }
-
-        .fst-italic {
-            color: #666;
+        th, td {
+            padding: 15px;
+            text-align: center;
+            font-size: 1rem;
         }
-
-        ul li {
-            list-style: none;
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
         }
-
-        ul li i {
-            color: #28a745;
-            margin-right: 5px;
+        td {
+            border: 1px solid #ddd;
+        }
+        .gold { background-color: #ffd700; color: #000; }
+        .silver { background-color: #c0c0c0; color: #000; }
+        .bronze { background-color: #cd7f32; color: #fff; }
+        .country-flag {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .flag-icon {
+            width: 25px;
+            height: 15px;
         }
     </style>
 </head>
 
 <body>
-    <h1>Extrêmes des Athlètes</h1>
-    <div class="container">
-        <!-- Dynamically injected content will go here -->
-    </div>
-
+<main class="container mt-5">
+    <h2 class="text-center">
+        <i class="fas fa-heart"></i> Les athletes extrêmes <i class="fas fa-heart"></i>
+    </h2>
+</main>
     <script>
         // Charger le fichier CSV
         d3.csv("archive/athletes.csv").then(data => {
@@ -125,6 +140,11 @@
     <script>
         AOS.init();
     </script>
+
+<?php
+// Inclusion du footer
+include 'footer.php';
+?>
 </body>
 
 </html>
