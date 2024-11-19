@@ -193,7 +193,7 @@
               <div class="icon">
                 <i class="bi bi-activity"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="histogram.php" class="stretched-link">
                 <h3>Statistiques des Coaches et Athlètes</h3>
               </a>
               <p>Cette page présentera des statistiques détaillées sur les coaches et les athlètes, avec des données sur leur préparation, leurs performances et l'impact des entraîneurs.</p>
@@ -205,7 +205,7 @@
               <div class="icon">
                 <i class="bi bi-broadcast"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="medailles.php" class="stretched-link">
                 <h3>Distribution des Médailles</h3>
               </a>
               <p>Cette page se concentrera sur la répartition des médailles lors des Jeux Olympiques, montrant les pays les plus performants, les tendances et les records.</p>
@@ -217,7 +217,7 @@
               <div class="icon">
                 <i class="bi bi-easel"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="teams.php" class="stretched-link">
                 <h3>Performances des Équipes et des Sports</h3>
               </a>
               <p>Cette page donnera un aperçu des performances des équipes nationales ainsi que des statistiques sur les sports olympiques, y compris les résultats par sport et les classements historiques.</p>
@@ -229,11 +229,10 @@
               <div class="icon">
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="torch_route.php" class="stretched-link">
                 <h3>Statistiques des Événements Olympiques</h3>
               </a>
               <p>Une page dédiée aux différentes disciplines et événements olympiques, avec des informations sur les épreuves, les résultats et l'évolution des sports dans les JO.</p>
-              <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
         </div>
@@ -329,85 +328,58 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background text-white py-4">
+  <div class="container text-center">
+    <h4 class="mb-3">Rejoignez notre Newsletter</h4>
+    <p class="mb-4">Recevez les dernières analyses et statistiques des JO Paris 2024 directement dans votre boîte mail.</p>
+    <form action="forms/newsletter.php" method="post" class="php-email-form d-flex justify-content-center">
+      <input type="email" name="email" class="form-control w-50 me-2" placeholder="Votre email" required>
+      <button type="submit" class="btn btn-primary">S'abonner</button>
+    </form>
+    <div class="mt-3 small">
+      <span class="loading d-none">Chargement...</span>
+      <span class="error-message text-danger d-none">Une erreur s'est produite.</span>
+      <span class="sent-message text-success d-none">Merci pour votre abonnement !</span>
+    </div>
+  </div>
 
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>
-          </div>
+  <div class="container mt-5">
+    <div class="row gy-4 text-center text-md-start">
+      <!-- Section About -->
+      <div class="col-md-4">
+        <h5>Stats Olympiques</h5>
+        <p>Découvrez les analyses les plus détaillées et les statistiques incontournables des Jeux Olympiques Paris 2024.</p>
+      </div>
+
+      <!-- Section Links -->
+      <div class="col-md-4">
+        <h5>Liens Utiles</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Accueil</a></li>
+          <li><a href="#" class="text-white text-decoration-none">À propos</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Nos services</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Mentions légales</a></li>
+        </ul>
+      </div>
+
+      <!-- Section Social -->
+      <div class="col-md-4">
+        <h5>Suivez-nous</h5>
+        <div class="social-links d-flex justify-content-center justify-content-md-start">
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">Moderna</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-        </div>
+  <div class="container text-center mt-4">
+    <p class="small">© 2024 <strong>Stats Olympiques</strong>. Tous droits réservés.</p>
+  </div>
+</footer>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-          <div class="social-links d-flex">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">StatsOlympiques</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
