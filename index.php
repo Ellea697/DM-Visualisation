@@ -231,7 +231,7 @@
               <a href="torch_route.php" class="stretched-link">
                 <h3>Disciplines et catégories</h3>
               </a>
-              <p>Une page dédiée aux différentes disciplines et événements olympiques, avec des informations sur les épreuves, les résultats et l'évolution des sports dans les JO.</p>
+              <p>Une page dédiée aux différentes disciplines et catégories olympiques</p>
             </div>
           </div><!-- End Service Item -->
         </div>
