@@ -8,10 +8,13 @@ include 'header.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les athletes extrêmes</title>
+    <title>Les extrêmes des JO</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/js/flag-icon.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,7 +25,7 @@ include 'header.php';
             font-family: 'Georgia', 'Times New Roman', serif; /* Nouvelle police */
             font-size: 2.5rem; /* Augmenté pour un meilleur impact */
             text-align: center;
-            color: #dc3545;
+            color: #1e4356;
             font-weight: bold; /* Gras */
             margin-bottom: 20px;
         }
@@ -66,9 +69,10 @@ include 'header.php';
 <body>
 <main class="container mt-5">
     <h2 class="text-center">
-        <i class="fas fa-heart"></i> Les athletes extrêmes <i class="fas fa-heart"></i>
+        Les Extrêmes de JO 
     </h2>
 </main>
+    
     <script>
         // Charger le fichier CSV
         d3.csv("archive/athletes.csv").then(data => {

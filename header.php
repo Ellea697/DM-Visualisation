@@ -36,47 +36,22 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="test.php" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/JO.svg" alt="">
         <h1 class="sitename">StatsOlympiques</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="test.php" class="active">Accueil</a></li>
+          <li><a href="index.php" class="active">Accueil</a></li>
           <li class="dropdown"><a href="#"><span>Statistiques</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li class="dropdown"><a href="#"><span>Coaches et Athlètes</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="histogram.php">Histogram 1</a></li>
-                  <li><a href="histogram2.php">Histogram 2</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Distribution des Médailles</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="medailles.php">Medailles</a></li>
-                  <li><a href="TotalMedailles.php">Total Medailles</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Performances</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="paysJO.php">paysJO</a></li>
-                  <li><a href="venue.php">venue</a></li>
-                  <li><a href="teams.php">teams</a></li>
-                  <li><a href="technicalOfficial.php">technicalOfficial</a></li>
-                  <li><a href="schedulePrimary.php">schedulePrimary</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Événements</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="camembert.php">camembert</a></li>
-                  <li><a href="event.php">event</a></li>
-                  <li><a href="torch_route.php">torch_route</a></li>
-                </ul>
-              </li>
+              <li class="dropdown"><a href="extreme.php"><span>Les Extrêmes des JO</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
+              <li class="dropdown"><a href="medaille.php"><span>Médailles</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
+              <li class="dropdown"><a href="repartition_age.php"><span>Répartition</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
+              <li class="dropdown"><a href="categorie.php"><span>Catégories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
             </ul>
           </li>
-          <li><a href="team.html">Team</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

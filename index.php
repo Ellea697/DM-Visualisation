@@ -36,47 +36,23 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="test.php" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/JO.svg" alt="">
         <h1 class="sitename">StatsOlympiques</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="test.php" class="active">Accueil</a></li>
+          <li><a href="index.php" class="active">Accueil</a></li>
           <li class="dropdown"><a href="#"><span>Statistiques</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li class="dropdown"><a href="#"><span>Coaches et Athlètes</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="histogram.php">Histogram 1</a></li>
-                  <li><a href="histogram2.php">Histogram 2</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Distribution des Médailles</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="medaille.php">Medailles</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Performances</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="paysJO.php">paysJO</a></li>
-                  <li><a href="venue.php">venue</a></li>
-                  <li><a href="teams.php">teams</a></li>
-                  <li><a href="technicalOfficial.php">technicalOfficial</a></li>
-                  <li><a href="schedulePrimary.php">schedulePrimary</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Événements</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="camembert.php">camembert</a></li>
-                  <li><a href="event.php">event</a></li>
-                  <li><a href="torch_route.php">torch_route</a></li>
-                </ul>
-              </li>
+              <li class="dropdown"><a href="extreme.php"><span>Les Extrêmes des JO</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
+              <li class="dropdown"><a href="medaille.php"><span>Médailles</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
+              <li class="dropdown"><a href="repartition_age.php"><span>Répartition</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
+              <li class="dropdown"><a href="categorie.php"><span>Catégories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a></li>
             </ul>
           </li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -149,7 +125,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="10500" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="11110" data-purecounter-duration="1" class="purecounter"></span>
               <p>Athlètes</p>
             </div>
           </div><!-- End Stats Item -->
@@ -187,17 +163,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="extreme.php" class="stretched-link">
-                <h3>Les athletes extrêmes</h3>
-              </a>
-              <p>Dans cette compétition de 26,8 ans de moyenne, des athlètes sortent du lot. Venez découvrir le/la plus grand(e);le/la plus lourd(e)... </p>
-            </div>
-          </div><!-- End Service Item -->
+          
 
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item item-orange position-relative">
@@ -210,14 +176,14 @@
               <p>Cette page se concentrera sur la répartition des médailles lors des Jeux Olympiques, montrant les pays les plus performants, les tendances et les records.</p>
             </div>
           </div><!-- End Service Item -->
-
+            
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item item-teal position-relative">
               <div class="icon">
                 <i class="bi bi-easel"></i>
               </div>
               <a href="repartition_age.php" class="stretched-link">
-                <h3>Répartition hommes/femmes dans chaque discipline</h3>
+                <h3>Répartition Hommes/Femmes dans chaque discipline</h3>
               </a>
               <p>Cette page donnera un aperçu des statistiques de la répartition des athletes par genre et par tranche d'âge.</p>
             </div>
@@ -228,10 +194,21 @@
               <div class="icon">
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
-              <a href="torch_route.php" class="stretched-link">
+              <a href="categorie.php" class="stretched-link">
                 <h3>Disciplines et catégories</h3>
               </a>
               <p>Une page dédiée aux différentes disciplines et catégories olympiques</p>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="extreme.php" class="stretched-link">
+                <h3>Les Extrêmes des JO</h3>
+              </a>
+              <p>Dans cette compétition de 26,8 ans de moyenne, des athlètes sortent du lot. Venez découvrir le/la plus grand(e);le/la plus lourd(e)... </p>
             </div>
           </div><!-- End Service Item -->
         </div>
